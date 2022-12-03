@@ -1,0 +1,1 @@
+1) git init commands helps us to create new repository in our local storage for storing codes
