@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
-import 'package:eight_hrs_flutter/home_page.dart';
+import 'package:eight_hrs_flutter/pages/home_page.dart';
+import 'package:eight_hrs_flutter/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +11,33 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomePage());
+    bringVegetables(thaila: true);
+    return MaterialApp(
+      // home: HomePage(),
+
+      //Dark Mode Theme
+      // themeMode: ThemeMode.light,
+      // darkTheme: ThemeData(brightness: Brightness.dark),
+
+      //Light Mode Theme
+      theme: ThemeData(primarySwatch: Colors.amber),
+
+      debugShowCheckedModeBanner: false,
+
+      //routes
+      initialRoute: '/home',
+      routes: {
+        '/': (context) => LoginPage(),
+        '/home': (context) => HomePage(),
+        '/login': (context) => LoginPage(),
+      },
+    );
+  }
+
+  bringVegetables({required bool thaila, int rupees = 100}) {
+    //optional parameters {} to give the default value
+    //Take cycle
+
+    //Go to Sec 16
   }
 }
