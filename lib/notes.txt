@@ -8,3 +8,7 @@ Day 1.
 7) const data types when used its value can never be redefined/changed.
 8) final data types is same as const but final data types can be edited where const cannot be edited.
 9) Everything is widget in flutter.
+
+
+Day 2.
+
