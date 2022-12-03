@@ -1,1 +1,10 @@
-1) git init commands helps us to create new repository in our local storage for storing codes
+Day 1.
+1) git init commands helps us to create new repository in our local storage for storing codes.
+2) git add . command add all the files to the git repository
+3) git commit -m "First commit" commands helps us in committing the codes to repository with msg "First commit"
+4) Floating numbers are double numbers with point value.
+5) num data types can take both integers and double value.
+6) var data types can store any types of data.
+7) const data types when used its value can never be redefined/changed.
+8) final data types is same as const but final data types can be edited where const cannot be edited.
+9) Everything is widget in flutter.
