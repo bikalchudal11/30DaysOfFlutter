@@ -20,5 +20,10 @@ Day 3.
 6) class name starts with capital letter and its sub word is also capital letter but in function the first letter is small and its sub word's first letter is capital as class.
 7) Every widgets has its own key.
 
+Day 4.
+1) Whenever you add some external plugins in your project it is necessary to restart or rerun your app but if you use package then it is not necessary to restart the app.
+2) SizedBox is more preferable for using space between two widgets.
+3) Textfield are of 2 types: 1) Normal Textfield  2) TextFormField
+
 
 
