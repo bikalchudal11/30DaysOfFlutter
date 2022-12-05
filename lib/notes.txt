@@ -1,4 +1,5 @@
-Day 1.
+
+Day 1 and Day 2.
 1) git init commands helps us to create new repository in our local storage for storing codes.
 2) git add . command add all the files to the git repository
 3) git commit -m "First commit" commands helps us in committing the codes to repository with msg "First commit"
@@ -10,5 +11,19 @@ Day 1.
 9) Everything is widget in flutter.
 
 
-Day 2.
+Day 3.
+1) A context in build method is like tree and piece of information where other widgets are located.
+2) primarySwatch gives the theme color to our app.
+3) / in routes is the default/homepage.
+4) class is a blueprint of their objects.
+5) new keyword is used to make an object of a class but the compiler of flutter is smart enough to understand it without using the new keyword.
+6) class name starts with capital letter and its sub word is also capital letter but in function the first letter is small and its sub word's first letter is capital as class.
+7) Every widgets has its own key.
+
+Day 4.
+1) Whenever you add some external plugins in your project it is necessary to restart or rerun your app but if you use package then it is not necessary to restart the app.
+2) SizedBox is more preferable for using space between two widgets.
+3) Textfield are of 2 types: 1) Normal Textfield  2) TextFormField
+
+
 
