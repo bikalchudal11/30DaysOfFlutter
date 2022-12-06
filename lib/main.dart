@@ -20,16 +20,16 @@ class MyApp extends StatelessWidget {
       // darkTheme: ThemeData(brightness: Brightness.dark),
 
       //Light Mode Theme
-      theme: ThemeData(primarySwatch: Colors.amber),
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
 
       debugShowCheckedModeBanner: false,
 
       //routes
       // initialRoute: '/home',
       routes: {
-        '/': (context) => LoginPage(),
-        '/home': (context) => HomePage(),
-        '/login': (context) => LoginPage(),
+        MyRoutes.loginRoute: (context) => LoginPage(),
+        MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.loginRoute: (context) => LoginPage(),
       },
     );
   }
