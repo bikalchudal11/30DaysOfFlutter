@@ -25,5 +25,9 @@ Day 4.
 2) SizedBox is more preferable for using space between two widgets.
 3) Textfield are of 2 types: 1) Normal Textfield  2) TextFormField
 
-
+Day 5.
+1) ScrollView is used in case the size of the screen is small and so the widgets can be scrollable also fix the issue of bottom over flow.
+2) Static can be accessed without creating an object and it is not recommended to use every time unless and until it is necessary.
+3) We use navigator class while going to another page on performing some action.
+4) push is used to put data over something and pop means to retrieve data from something called stack.
 
