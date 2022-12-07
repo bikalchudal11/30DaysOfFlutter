@@ -51,3 +51,11 @@ Day 8.
 4) TextFormField has validation features and onChanged function.
 5) Using Form widget as parent for TextFormField, they can be used for grouping.
 6) Returning null means no error, compiled successfully.
+
+Day 9.
+1) We discuss about the dart dev tools(CTRL + ALT + D).
+2) Now we develop our homepage.
+3) In drawer we normally see a list of widget so for that we use listView widget.
+4) Since we are using image that is coming from the network we use Image.Network('url').
+5) ListTile is a widget used to create list items that contains leading, trailing, title etc.
+6) ListTile also has onTap callback function.
