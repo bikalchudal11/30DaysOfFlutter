@@ -45,4 +45,9 @@ Day 6.
 Day 7. Was our Q and A.
 
 Day 8.
-1)
+1) Inkwell ripple effect is possible if its parents is material, otherwise the ripple effect is only seen in background and it is recommended to apply on normal container.
+2) Ink widget is similar as container, it gives more decoration features and it is used with InkWell.
+3) So for ripple effect you make sure that the material child must not have decoration features.
+4) TextFormField has validation features and onChanged function.
+5) Using Form widget as parent for TextFormField, they can be used for grouping.
+6) Returning null means no error, compiled successfully.
