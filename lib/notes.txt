@@ -31,3 +31,8 @@ Day 5.
 3) We use navigator class while going to another page on performing some action.
 4) push is used to put data over something and pop means to retrieve data from something called stack.
 
+Day 6.
+1) Every component change itself which increase the performance of the app.
+2) State full widget have 2 classes where state less widget have only one class.
+3) '_' is used to make the variable or class private.
+4) We need to re build the screen by calling the setState function to view our changes.
