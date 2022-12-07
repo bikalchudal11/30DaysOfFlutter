@@ -36,3 +36,13 @@ Day 6.
 2) State full widget have 2 classes where state less widget have only one class.
 3) '_' is used to make the variable or class private.
 4) We need to re build the screen by calling the setState function to view our changes.
+5) When use decoration in container put color property of container inside the decoration.
+6) There are 2 ways that you can make a box clickable :- 1) Gesture Detector 2) InkWell
+7) Gesture Detector have no ripple effect like InkWell.
+8) Animated container is like normal container but it has animation in it.
+9) Whenever we use await then the above function must be async.
+
+Day 7. Was our Q and A.
+
+Day 8.
+1)
