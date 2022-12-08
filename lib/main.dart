@@ -3,6 +3,7 @@
 import 'package:eight_hrs_flutter/pages/home_page.dart';
 import 'package:eight_hrs_flutter/pages/login_page.dart';
 import 'package:eight_hrs_flutter/utils/routes.dart';
+import 'package:eight_hrs_flutter/widgets/themes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       // darkTheme: ThemeData(brightness: Brightness.dark),
 
       //Light Mode Theme
-      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      theme: MyTheme.lightTheme(context),
 
       debugShowCheckedModeBanner: false,
 

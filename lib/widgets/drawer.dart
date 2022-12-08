@@ -12,7 +12,7 @@ class MyDrawer extends StatelessWidget {
         'https://images.news18.com/ibnlive/uploads/2022/01/267153613_635270220945415_6635835364397949857_n-1.jpg';
     return Drawer(
       child: Container(
-        color: Colors.deepPurple,
+        color: Colors.black,
         child: ListView(
           padding: EdgeInsets.zero,
           // ignore: prefer_const_literals_to_create_immutables
@@ -20,6 +20,7 @@ class MyDrawer extends StatelessWidget {
             DrawerHeader(
                 padding: EdgeInsets.zero,
                 child: UserAccountsDrawerHeader(
+                  decoration: BoxDecoration(color: Colors.black),
                   margin: EdgeInsets.zero,
                   // decoration: BoxDecoration(color: Colors.deepPurple.shade500),
                   accountName: Text('Hritik Roshan'),

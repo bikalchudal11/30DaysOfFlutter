@@ -75,9 +75,14 @@ class _LoginPageState extends State<LoginPage> {
                           setState(() {});
                         },
                         decoration: InputDecoration(
-                          hintText: "Enter username",
-                          labelText: "Username",
-                        ),
+                            fillColor: Colors.black,
+                            focusColor: Colors.black,
+                            hintText: "Enter username",
+                            hintStyle: TextStyle(color: Colors.black),
+                            labelText: "Username",
+                            labelStyle: TextStyle(color: Colors.black),
+                            focusedBorder: OutlineInputBorder(
+                                borderSide: BorderSide(color: Colors.black))),
                         validator: (value) {
                           if (value!.isEmpty) {
                             return 'Username cannot be empty';
@@ -89,8 +94,13 @@ class _LoginPageState extends State<LoginPage> {
                         controller: passwordController,
                         obscureText: true,
                         decoration: InputDecoration(
+                          fillColor: Colors.black,
+                          focusColor: Colors.black,
                           hintText: "Enter password",
                           labelText: "Password",
+                          labelStyle: TextStyle(color: Colors.black),
+                          focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(color: Colors.black)),
                         ),
                         validator: (value) {
                           if (value!.isEmpty) {

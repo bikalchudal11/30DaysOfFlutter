@@ -59,3 +59,7 @@ Day 9.
 4) Since we are using image that is coming from the network we use Image.Network('url').
 5) ListTile is a widget used to create list items that contains leading, trailing, title etc.
 6) ListTile also has onTap callback function.
+
+Day 10.
+1) There is AppBarTheme property in main.dart to make your appBar of your choice.
+2) All the appBar properties is changed by doing changes in AppBarTheme.
