@@ -71,3 +71,7 @@ Day 11.
 4) There are basically 3 components while doing changes in widgets: 1) Widget Tree  2) Element Tree  3) Render Tree.
 5) In Widget tree we write the changes, Render tree helps us in painting and Element tree helps in communicating between Widget tree and Render tree also update the changes by calling build method again.
 6) Context is basically Element tree and it also locates the location of widget.
+
+Day 12.
+1) String interpolation is used to put variable value inside widgets.
+2) Card widget helps us to show the widget like card and it improves the design of the app
