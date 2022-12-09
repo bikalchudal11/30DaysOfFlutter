@@ -15,17 +15,10 @@ class HomePage extends StatelessWidget {
           'Catalog App',
         ),
       ),
-      body: Container(
-        constraints: BoxConstraints(
-            minHeight: 70, maxHeight: 200, minWidth: 70, maxWidth: 200),
-        color: Colors.green,
-        child: Container(
-          //height and width must be lies between the range of constraints otherwise the parent's constraints is applied.
-          height: 50,
-          width: 300,
-          color: Colors.red,
-        ),
-      ),
+      body: Center(
+          child: Container(
+              //verifies that context is a Stateless element by line 22
+              child: Text(context.runtimeType.toString()))),
       drawer: MyDrawer(),
     );
   }
