@@ -82,3 +82,6 @@ Day 13 (local files | load and decode JSON).
 3) Breakpoint stops the code up to that point.
 4) We can't use direct JSON files, we must decode first and for that we have dart:convert library.
 4) We need to hot restart our app to run init state.
+
+Day 14 (JSON mapping | Data Class Generator | ProgressIndicator).
+1) factory constructor is used for constructor which has logic and to initialize and it gives us choice to choose the constructor.

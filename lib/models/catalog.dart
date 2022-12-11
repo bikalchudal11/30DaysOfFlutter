@@ -1,14 +1,5 @@
 class CatalogModel {
-  static final items = [
-    Item(
-        id: 1,
-        name: 'Iphone 12 pro max',
-        desc: 'Apple Iphone 12 generation',
-        price: 999,
-        color: '#33505a',
-        image:
-            'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHLD3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1601149541000')
-  ];
+  static List<Item> items = [];
 }
 
 class Item {
@@ -27,4 +18,28 @@ class Item {
       required this.price,
       required this.color,
       required this.image});
+
+  //to decode the map to object
+  //since we are retrieving the data from map and its type is string
+  //factory is used for constructor which has logic and to initialize.
+  factory Item.fromMap(Map<String, dynamic> map) {
+    return Item(
+      id: map['id'],
+      name: map['name'],
+      desc: map['desc'],
+      price: map['price'],
+      color: map['color'],
+      image: map['image'],
+    );
+  }
+
+  //to encode the object to map
+  toMap() => {
+        'id': id,
+        'name': name,
+        'desc': desc,
+        'price': price,
+        'color': color,
+        'image': image,
+      };
 }
