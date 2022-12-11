@@ -79,3 +79,6 @@ Day 12.
 Day 13 (local files | load and decode JSON).
 1) Created a catalogue.json file in assets/files to retrieve the data present in it.
 2) Init state is the state that is initialize at the first when the app runs.
+3) Breakpoint stops the code up to that point.
+4) We can't use direct JSON files, we must decode first and for that we have dart:convert library.
+4) We need to hot restart our app to run init state.

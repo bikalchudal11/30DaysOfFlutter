@@ -4,10 +4,37 @@ import 'package:eight_hrs_flutter/models/catalog.dart';
 import 'package:eight_hrs_flutter/widgets/drawer.dart';
 import 'package:eight_hrs_flutter/widgets/item_widget.dart';
 import 'package:flutter/material.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
   final int days = 30;
+
   final String name = 'Codepur';
+
+  @override
+  void initState() {
+    super.initState();
+    //function that is going to load data from catalogue.json file
+    loadData();
+  }
+
+  loadData() async {
+    //line 28 returns future so we use await keyword
+    final catalougeJson =
+        await rootBundle.loadString('assets/files/catalouge.json');
+    // print(catalougeJson);
+    final decodeData = jsonDecode(catalougeJson);
+    // print(decodeData);
+    //We only need products data so
+    var productsData = decodeData['products'];
+    // print(productsData);
+  }
 
   @override
   Widget build(BuildContext context) {
