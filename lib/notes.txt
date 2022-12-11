@@ -75,3 +75,7 @@ Day 11.
 Day 12.
 1) String interpolation is used to put variable value inside widgets.
 2) Card widget helps us to show the widget like card and it improves the design of the app
+
+Day 13 (local files | load and decode JSON).
+1) Created a catalogue.json file in assets/files to retrieve the data present in it.
+2) Init state is the state that is initialize at the first when the app runs.
