@@ -85,3 +85,6 @@ Day 13 (local files | load and decode JSON).
 
 Day 14 (JSON mapping | Data Class Generator | ProgressIndicator).
 1) factory constructor is used for constructor which has logic and to initialize and it gives us choice to choose the constructor.
+
+Day 15 (GridView | GridTile).
+1) Every widget that has scrolling features have silver inside them.
