@@ -88,3 +88,9 @@ Day 14 (JSON mapping | Data Class Generator | ProgressIndicator).
 
 Day 15 (GridView | GridTile).
 1) Every widget that has scrolling features have silver inside them.
+
+Day 17 (Beautiful UI and Vx).
+1) Adding velocity_x in dependencies to make easier in UI also it is optional.
+2) SafeArea widget helps us keeping our widgets inside the top area and bottom area, basically it helps in fitting inside phone without overlapping the area.
+3) Dart helps us in using conditional statement inside a widget.
+4) assert in constructor helps us to remove null warning.
