@@ -94,3 +94,7 @@ Day 17 (Beautiful UI and Vx).
 2) SafeArea widget helps us keeping our widgets inside the top area and bottom area, basically it helps in fitting inside phone without overlapping the area.
 3) Dart helps us in using conditional statement inside a widget.
 4) assert in constructor helps us to remove null warning.
+
+Day 18 (Hero Animation | MaterialPageRoute | Arc).
+1) Creating a folder inside widgets folder name home_widgets, where we create file for homepage widgets.
+2) Hero widget takes tag of same value in both widget and helps us in animating the widgets.
