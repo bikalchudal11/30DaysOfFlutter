@@ -12,7 +12,9 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: MyTheme.creamColor,
       bottomNavigationBar: Container(
         color: Colors.white,
@@ -20,15 +22,15 @@ class HomeDetailPage extends StatelessWidget {
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: EdgeInsets.zero,
           children: [
-            "\$${catalog.price}".text.bold.xl4.make(),
+            "\$${catalog.price}".text.bold.xl2.make(),
             ElevatedButton(
                     onPressed: () {},
                     style: ButtonStyle(
                         backgroundColor:
                             MaterialStateProperty.all(MyTheme.darkBluishColor),
                         shape: MaterialStateProperty.all(StadiumBorder())),
-                    child: 'Buy'.text.make())
-                .wh(100, 50)
+                    child: 'Add to cart'.text.make())
+                .wh(150, 50)
           ],
         ).p32(),
       ),
@@ -53,13 +55,18 @@ class HomeDetailPage extends StatelessWidget {
                   children: [
                     catalog.name.text
                         .color(MyTheme.darkBluishColor)
-                        .xl4
+                        .xl3
                         .bold
                         .make(),
                     catalog.desc.text.textStyle(context.captionStyle).xl.make(),
                     10.heightBox,
+                    "Est aliquyam at est est magna ea dolore invidunt stet sit. Lorem at takimata ut magna takimata clita ea, voluptua sit invidunt diam dolor vero vero, voluptua ea sit duo diam dolor no voluptua kasd. Rebum et justo dolore ."
+                        .text
+                        .textStyle(context.captionStyle)
+                        .make()
+                        .p8(),
                   ],
-                ).py64(),
+                ).py32(),
               ),
             ))
           ],

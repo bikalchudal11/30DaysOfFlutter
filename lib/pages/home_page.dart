@@ -3,6 +3,8 @@
 
 import 'dart:convert';
 
+import 'package:eight_hrs_flutter/utils/routes.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -53,9 +55,16 @@ class _HomePageState extends State<HomePage> {
     //to print the items for given index times using List.generate
     return Scaffold(
       backgroundColor: MyTheme.creamColor,
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: MyTheme.darkBluishColor,
+        onPressed: () {
+          Navigator.pushNamed(context, MyRoutes.cartRoute);
+        },
+        child: Icon(CupertinoIcons.cart),
+      ),
       body: SafeArea(
         child: Container(
-          padding: Vx.m32, //same like EdgeInsets.all()
+          padding: Vx.m8, //same like EdgeInsets.all()
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

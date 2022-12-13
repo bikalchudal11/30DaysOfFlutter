@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
+import 'package:eight_hrs_flutter/pages/cart_page.dart';
 import 'package:eight_hrs_flutter/pages/home_page.dart';
 import 'package:eight_hrs_flutter/pages/login_page.dart';
 import 'package:eight_hrs_flutter/utils/routes.dart';
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => LoginPage(),
         MyRoutes.homeRoute: (context) => HomePage(),
         MyRoutes.loginRoute: (context) => LoginPage(),
+        MyRoutes.cartRoute: (context) => CartPage(),
       },
     );
   }

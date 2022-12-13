@@ -98,3 +98,7 @@ Day 17 (Beautiful UI and Vx).
 Day 18 (Hero Animation | MaterialPageRoute | Arc).
 1) Creating a folder inside widgets folder name home_widgets, where we create file for homepage widgets.
 2) Hero widget takes tag of same value in both widget and helps us in animating the widgets.
+
+Day 19 (Cart Page | FloatingActionButton | Dummy Text)
+1) A FloatingActionButton is a button that is displayed above(body) in the bottom right corner.
+2) Creating cart_page.dart file in pages folder to store products in the cart.

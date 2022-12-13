@@ -13,12 +13,12 @@ class CatalogHeader extends StatelessWidget {
       children: [
         "Catalog App"
             .text
-            .xl5
+            .xl3
             .bold
             .color(MyTheme.darkBluishColor)
             .make(), //velocity package shortcut
         // Text('Catalog App'), //line 54 and 55 are same
-        "Trending Products".text.xl2.make(),
+        "Trending Products".text.xl.make(),
       ],
     );
   }
